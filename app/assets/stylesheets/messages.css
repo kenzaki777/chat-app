@@ -9,11 +9,36 @@
 background-color: #253141;
 height: 100px;
 padding: 0 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #253141;
+}
+.headername a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+.createroom a{
+  font-size: 10px;
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
 }
 .sidemain{
   height: calc(100vh - 100px);
   background-color: #2f3e51;
+  overflow: scroll;
   padding: 0 20px;
+  width: 300px;
+}
+.room{
+  padding: 20px 0 40px;
+}
+.roomname a{
+  text-decoration: none;
+  color: white;
 }
 .main{
   width: calc(100vw - 300px);
